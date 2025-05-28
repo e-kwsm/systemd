@@ -18,8 +18,9 @@
 # against the expected value and the result is printed.
 
 import functools
+import grp
 import os
-import pwd, grp
+import pwd
 import re
 import stat
 import subprocess
