@@ -6,8 +6,9 @@
 # © 2017 Canonical Ltd.
 # Author: Dan Streetman <dan.streetman@canonical.com>
 
-import os, sys
+import os
 import shutil
+import sys
 
 def d(path, mode):
     os.mkdir(path, mode)
