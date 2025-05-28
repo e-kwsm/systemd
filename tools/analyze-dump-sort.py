@@ -70,9 +70,11 @@ def parse_args():
 if __name__ == '__main__':
     opts = parse_args()
 
-    one = sort_dump(open(opts.one))
+    with open(opts.one) as f:
+        one = sort_dump(f)
     if opts.two:
-        two = sort_dump(open(opts.two))
+        with open(opts.two) as f:
+            two = sort_dump(f)
     else:
         user = ['--user'] if opts.user else []
         two = subprocess.run(['systemd-analyze', 'dump', *user],
