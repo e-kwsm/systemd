@@ -28,6 +28,7 @@ def main():
             print(f"Virt address of {name} section is not aligned to 512 bytes", file=sys.stderr)
             return 1
 
+
 if __name__ == '__main__':
     if len(sys.argv) != 2:
         print(f"Usage: {sys.argv[0]} pe-image")

@@ -34,6 +34,7 @@ def extract_interfaces_xml(output_dir, executable):
         interface_file_name.write_text(proc.stdout)
         interface_file_name.chmod(0o644)
 
+
 def main():
     parser = ArgumentParser()
     parser.add_argument('output',
@@ -49,6 +50,7 @@ def main():
     args.output.chmod(mode=0o755)
     for exe in args.executables:
         extract_interfaces_xml(args.output, exe)
+
 
 if __name__ == '__main__':
     main()

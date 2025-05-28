@@ -58,12 +58,14 @@ def sort_dump(sourcefile, destfile=None):
     destfile.flush()
     return destfile
 
+
 def parse_args():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('one')
     p.add_argument('two', nargs='?')
     p.add_argument('--user', action='store_true')
     return p.parse_args()
+
 
 if __name__ == '__main__':
     opts = parse_args()
