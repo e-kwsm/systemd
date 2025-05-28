@@ -14,8 +14,9 @@ OUTFILE_HEADER = """#!/usr/bin/env python3
 # after adding or modifying anything in the test/sys/ directory
 
 
-import os, sys
+import os
 import stat
+import sys
 import tempfile
 import filecmp
 import subprocess
