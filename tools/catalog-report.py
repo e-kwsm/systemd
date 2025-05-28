@@ -46,6 +46,7 @@ def log_entry(entry):
         print(f'    {k}={v}')
     print()
 
+
 if __name__ == '__main__':
     j = journal.Reader()
     logged = set()

@@ -79,7 +79,7 @@ def find_undocumented_commands(pages, ignorelist):
                 rev.get("href") != "version-info.xml" and
                 not path.startswith(tuple(entry[1] for entry in ignorelist if entry[0] == filename))
             ):
-                    undocumented.append((filename, path))
+                undocumented.append((filename, path))
 
     return undocumented
 
