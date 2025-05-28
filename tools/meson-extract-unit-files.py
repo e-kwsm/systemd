@@ -6,6 +6,7 @@ import re
 import subprocess
 import sys
 
+
 def main():
     build_dir = sys.argv[1]
 
@@ -15,6 +16,7 @@ def main():
     for file in sorted(files.values()):
         if re.search("^/usr/lib/systemd/(system|user)/", file) and not file.endswith(".conf"):
             print(file)
+
 
 if __name__ == "__main__":
     main()
