@@ -619,7 +619,7 @@ def flush_routes():
             continue
         if 'proto kernel' in line:
             continue
-        if ' dev ' in line and not ' dev lo ' in line:
+        if ' dev ' in line and ' dev lo ' not in line:
             continue
         if not have:
             have = True
