@@ -93,3 +93,5 @@ _arguments -s \
     '(-M --machine)'{-M+,--machine=}'[Operate on local container]:machines:_sd_machines' \
     '--json=[Shows output formatted as JSON]:format:_hostnamectl_get_json' \
     '*::hostnamectl commands:_hostnamectl_commands'
+
+# vi:ft=zsh

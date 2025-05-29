@@ -188,3 +188,5 @@ _arguments \
     '--verify=[Verification mode for downloaded images.]:verify:(no checksum signature)' \
     '--force[Download image even if already exists.]' \
     '*::machinectl command:_machinectl_commands'
+
+# vi:ft=zsh

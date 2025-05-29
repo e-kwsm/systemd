@@ -97,3 +97,5 @@ _arguments \
     '(-M --machine)'{-M+,--machine=}'[Operate on local container]:machine' \
     '(-l --full)'{-l,--full}'[Do not ellipsize the output]' \
     '*::localectl commands:_localectl_commands'
+
+# vi:ft=zsh
