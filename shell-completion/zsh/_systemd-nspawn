@@ -60,3 +60,5 @@ _arguments \
     '--forward-journal-max-file-size=[Maximum size of individual forwarded journal files.]: : _message bytes' \
     '--forward-journal-max-files=[Maximum number of forwarded journal files.]: : _message number' \
     '*:: : _normal'
+
+# vi:ft=zsh

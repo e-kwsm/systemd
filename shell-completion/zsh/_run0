@@ -65,3 +65,5 @@ local -a args=(
 )
 
 _arguments -S $args '*:: :{_normal -p $service}'
+
+# vi:ft=zsh

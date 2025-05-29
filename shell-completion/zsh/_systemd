@@ -79,3 +79,5 @@ case "$service" in
         ;;
     *) _message 'eh?' ;;
 esac
+
+# vi:ft=zsh

@@ -111,3 +111,5 @@ _arguments \
     '--random-seed[Whether to create random-seed file during install]:options:(yes no)' \
     '--variables=[Touch EFI variables]:options:(yes no)' \
     '*::bootctl command:_bootctl_commands'
+
+# vi:ft=zsh

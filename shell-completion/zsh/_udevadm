@@ -221,3 +221,5 @@ _arguments \
     '(- *)--version[Print version number]' \
     '(- *)--help[Print help text]' \
     '*::udevadm commands:_udevadm_commands'
+
+# vi:ft=zsh
