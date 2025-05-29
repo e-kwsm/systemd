@@ -8,3 +8,5 @@ _sd_unit_files() {
     _description files expl 'unit file'
     _files "$expl[@]" -g '*.(automount|device|mount|path|service|socket|swap|target|timer)'
 }
+
+# vi:ft=zsh

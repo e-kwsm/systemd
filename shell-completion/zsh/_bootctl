@@ -85,3 +85,5 @@ _arguments \
     '--install-source[Where to pick files when using --root=/--image=]:options:(image host auto)' \
     '--random-seed[Whether to create random-seed file during install]:options:(yes no)' \
     '*::bootctl command:_bootctl_commands'
+
+# vi:ft=zsh

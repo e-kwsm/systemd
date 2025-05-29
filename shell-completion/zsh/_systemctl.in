@@ -541,3 +541,5 @@ _arguments -s \
     '--failed[Show failed units]' \
     '--timestamp=[Change format of printed timestamps]:style:_systemctl_timestamp' \
     '*::systemctl command:_systemctl_commands'
+
+# vi:ft=zsh

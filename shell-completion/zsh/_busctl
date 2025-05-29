@@ -312,3 +312,5 @@ _arguments \
     '--augment-creds=[Extend credential data with data read from /proc/$PID]:boolean:(1 0)' \
     '(-M --limit-messages)'{-M,--limit-messages}'[Exit after receiving a number of messages while monitoring]:integer' \
     '*::busctl command:_busctl_commands'
+
+# vi:ft=zsh

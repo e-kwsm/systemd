@@ -4,3 +4,5 @@
 _alternative \
     'users-hosts:: _user_at_host' \
     'hosts:: _hosts'
+
+# vi:ft=zsh

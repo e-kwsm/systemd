@@ -97,3 +97,5 @@ _arguments \
     '--no-pager[Do not pipe output into a pager]' \
     '--no-ask-password[Do not prompt for password]' \
     '*::default: _resolvectl_commands'
+
+# vi:ft=zsh
