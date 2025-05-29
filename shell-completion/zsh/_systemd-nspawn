@@ -52,3 +52,5 @@ _arguments \
     "--notify-ready=[Control when the ready notification is sent]:options:(yes no)" \
     "--suppress-sync=[Control whether to suppress disk synchronization for the container payload]:options:(yes no)" \
     '*:: : _normal'
+
+# vi:ft=zsh

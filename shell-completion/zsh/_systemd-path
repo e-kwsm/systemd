@@ -7,3 +7,5 @@ _arguments -S \
     '(- *)'{-v,--version}'[Print a version string and exit]' \
     '--suffix=[Append a suffix to the paths]:SUFFIX' \
     '*:pathname:compadd -k sdpath'
+
+# vi:ft=zsh

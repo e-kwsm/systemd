@@ -129,3 +129,5 @@ _arguments \
     '(-M --machine)'{-M+,--machine=}'[Operate on local container]:machine:_sd_machines' \
     '--quiet[Do not show hints]' \
     '*::systemd-analyze commands:_systemd-analyze_commands'
+
+# vi:ft=zsh

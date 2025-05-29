@@ -68,3 +68,5 @@ local -a opts=(
     {-j+,--json=}'[Output as json]:json-mode:(pretty short)'
 )
 _arguments -S $opts '*:: := _varlinkctl_command'
+
+# vi:ft=zsh

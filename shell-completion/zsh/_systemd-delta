@@ -15,3 +15,5 @@ _arguments \
     '--diff=[Show a diff when overridden files differ]:boolean:(1 0)' \
     {-t+,--type=}'[Only display a selected set of override types]:types:_systemd-delta_types' \
     ':SUFFIX:(tmpfiles.d sysctl.d systemd/system)'
+
+# vi:ft=zsh

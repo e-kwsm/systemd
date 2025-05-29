@@ -59,3 +59,5 @@ _arguments \
     '--no-reload[Do not reload the network manager state when editing]' \
     '--json=[Shows output formatted as JSON]:format:_networkctl_get_json' \
     '*::networkctl commands:_networkctl_commands'
+
+# vi:ft=zsh

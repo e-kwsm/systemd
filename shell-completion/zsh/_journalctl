@@ -153,3 +153,5 @@ _arguments -s \
     '--verify-key=[Specify FSS verification key]:FSS key' \
     '--verify[Verify journal file consistency]' \
     '*::default: _journalctl_none'
+
+# vi:ft=zsh

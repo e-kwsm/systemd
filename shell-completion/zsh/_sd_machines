@@ -16,3 +16,5 @@ if [[ -n "$_machines" ]]; then
 else
     _message 'no machines'
 fi
+
+# vi:ft=zsh

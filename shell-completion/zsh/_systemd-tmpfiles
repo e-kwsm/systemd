@@ -23,3 +23,5 @@ _arguments \
     '(--cat-config --tldr)--dry-run[Just print what would be done]' \
     '--no-pager[Do not pipe output into a pager]' \
     '*::files:_files -g "*.conf"'
+
+# vi:ft=zsh

@@ -109,3 +109,5 @@ _arguments \
     '(--same-dir -d --shell)--working-directory=[Run with the specified working directory]:dir:_files -/' \
     '(-):command: _command_names -e' \
     '*::arguments:_normal'
+
+# vi:ft=zsh

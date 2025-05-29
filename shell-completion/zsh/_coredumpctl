@@ -45,3 +45,5 @@ _arguments \
     '(-q --quiet)'{-q,--quiet}'[Do not show info messages and privilege warning]' \
     '--all[Look at all journal files instead of local ones]' \
     '*::coredumpctl commands:_coredumpctl_commands'
+
+# vi:ft=zsh

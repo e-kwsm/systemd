@@ -36,3 +36,5 @@ _arguments \
     '--mode=[One of block, block-weak, or delay]:lock mode:( block block-weak delay )' \
     '--list[List active inhibitors]' \
     '*:commands:_systemd-inhibit_commands'
+
+# vi:ft=zsh

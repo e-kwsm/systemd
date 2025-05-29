@@ -180,3 +180,5 @@ _arguments -s \
     '(-n --lines)'{-n+,--lines=}'[Number of journal entries to show]' \
     '(-o --output)'{-o+,--output=}'[Change journal output mode]:output modes:_sd_outputmodes' \
     '*::loginctl command:_loginctl_commands'
+
+# vi:ft=zsh
