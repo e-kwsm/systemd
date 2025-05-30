@@ -1,6 +1,6 @@
 # shellcheck shell=bash
 # systemctl(1) completion                                 -*- shell-script -*-
-# vi: ft=sh
+# vi: ft=bash
 # SPDX-License-Identifier: LGPL-2.1-or-later
 #
 # This file is part of systemd.

@@ -103,3 +103,5 @@ _userdbctl () {
 }
 
 complete -F _userdbctl userdbctl
+
+# vi:ft=bash

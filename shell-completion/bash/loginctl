@@ -127,3 +127,5 @@ _loginctl () {
 }
 
 complete -F _loginctl loginctl
+
+# vi:ft=bash

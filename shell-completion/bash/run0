@@ -111,3 +111,5 @@ _run0() {
 }
 
 complete -F _run0 run0
+
+# vi:ft=bash

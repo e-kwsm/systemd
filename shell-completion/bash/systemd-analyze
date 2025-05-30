@@ -248,3 +248,5 @@ _systemd_analyze() {
 }
 
 complete -F _systemd_analyze systemd-analyze
+
+# vi:ft=bash

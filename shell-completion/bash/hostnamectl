@@ -91,3 +91,5 @@ _hostnamectl() {
 }
 
 complete -F _hostnamectl hostnamectl
+
+# vi:ft=bash

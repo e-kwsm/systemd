@@ -166,3 +166,5 @@ _journalctl() {
 }
 
 complete -F _journalctl journalctl
+
+# vi:ft=bash

@@ -67,3 +67,5 @@ _systemd_cgtop() {
 }
 
 complete -F _systemd_cgtop systemd-cgtop
+
+# vi:ft=bash

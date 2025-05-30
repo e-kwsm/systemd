@@ -184,3 +184,5 @@ _systemd_creds() {
 }
 
 complete -F _systemd_creds systemd-creds
+
+# vi:ft=bash

@@ -58,3 +58,5 @@ _systemd-vpick() {
 }
 
 complete -F _systemd-vpick systemd-vpick
+
+# vi:ft=bash

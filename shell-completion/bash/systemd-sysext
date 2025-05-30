@@ -84,3 +84,5 @@ _systemd-sysext() {
 }
 
 complete -F _systemd-sysext systemd-sysext
+
+# vi:ft=bash

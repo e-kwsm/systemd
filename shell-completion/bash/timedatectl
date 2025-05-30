@@ -96,3 +96,5 @@ _timedatectl() {
 }
 
 complete -F _timedatectl timedatectl
+
+# vi:ft=bash

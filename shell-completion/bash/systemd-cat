@@ -59,3 +59,5 @@ _systemd_cat() {
 }
 
 complete -F _systemd_cat systemd-cat
+
+# vi:ft=bash

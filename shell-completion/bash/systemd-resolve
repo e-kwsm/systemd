@@ -79,3 +79,5 @@ _systemd-resolve() {
 }
 
 complete -F _systemd-resolve systemd-resolve
+
+# vi:ft=bash

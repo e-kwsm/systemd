@@ -128,3 +128,5 @@ _systemd_dissect() {
 }
 
 complete -F _systemd_dissect systemd-dissect
+
+# vi:ft=bash

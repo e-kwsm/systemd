@@ -220,3 +220,5 @@ _busctl() {
 }
 
 complete -F _busctl busctl
+
+# vi:ft=bash

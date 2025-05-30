@@ -73,3 +73,5 @@ _systemd_cgls() {
 }
 
 complete -F _systemd_cgls systemd-cgls
+
+# vi:ft=bash
