@@ -207,3 +207,5 @@ _homectl() {
 }
 
 complete -F _homectl homectl
+
+# vi:ft=bash

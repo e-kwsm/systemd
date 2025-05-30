@@ -97,3 +97,5 @@ _systemd-confext() {
 }
 
 complete -F _systemd-confext systemd-confext
+
+# vi:ft=bash

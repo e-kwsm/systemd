@@ -169,3 +169,5 @@ _systemd_run() {
 }
 
 complete -F _systemd_run systemd-run
+
+# vi:ft=bash

@@ -116,3 +116,5 @@ _portablectl() {
 }
 
 complete -F _portablectl portablectl
+
+# vi:ft=bash

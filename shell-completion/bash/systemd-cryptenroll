@@ -115,3 +115,5 @@ _systemd_cryptenroll() {
 }
 
 complete -F _systemd_cryptenroll systemd-cryptenroll
+
+# vi:ft=bash

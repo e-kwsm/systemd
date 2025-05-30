@@ -56,3 +56,5 @@ _oomctl() {
 }
 
 complete -F _oomctl oomctl
+
+# vi:ft=bash

@@ -83,3 +83,5 @@ _systemd_id128() {
 }
 
 complete -F _systemd_id128 systemd-id128
+
+# vi:ft=bash

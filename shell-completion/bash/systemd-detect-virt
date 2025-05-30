@@ -39,3 +39,5 @@ _systemd_detect_virt() {
 }
 
 complete -F _systemd_detect_virt systemd-detect-virt
+
+# vi:ft=bash

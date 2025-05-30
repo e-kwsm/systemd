@@ -104,3 +104,5 @@ _networkctl() {
 }
 
 complete -F _networkctl networkctl
+
+# vi:ft=bash

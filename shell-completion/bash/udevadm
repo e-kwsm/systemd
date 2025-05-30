@@ -400,3 +400,5 @@ _udevadm() {
 }
 
 complete -F _udevadm udevadm
+
+# vi:ft=bash

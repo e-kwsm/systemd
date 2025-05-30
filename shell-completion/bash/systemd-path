@@ -60,3 +60,5 @@ _systemd_path() {
 }
 
 complete -F _systemd_path systemd-path
+
+# vi:ft=bash

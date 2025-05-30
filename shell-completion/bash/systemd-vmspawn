@@ -83,3 +83,5 @@ _systemd_vmspawn() {
 }
 
 complete -F _systemd_vmspawn systemd-vmspawn
+
+# vi:ft=bash

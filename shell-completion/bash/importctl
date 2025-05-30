@@ -127,3 +127,5 @@ _importctl() {
 }
 
 complete -F _importctl importctl
+
+# vi:ft=bash

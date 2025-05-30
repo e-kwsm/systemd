@@ -131,3 +131,5 @@ _bootctl() {
 }
 
 complete -F _bootctl bootctl
+
+# vi:ft=bash

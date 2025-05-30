@@ -203,3 +203,5 @@ _resolvectl() {
 }
 
 complete -F _resolvectl resolvectl
+
+# vi:ft=bash

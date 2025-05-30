@@ -115,3 +115,5 @@ _varlinkctl() {
 }
 
 complete -F _varlinkctl varlinkctl
+
+# vi:ft=bash
