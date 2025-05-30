@@ -47,3 +47,5 @@ _kernel_install() {
 }
 
 complete -F _kernel_install kernel-install
+
+# vi:ft=sh

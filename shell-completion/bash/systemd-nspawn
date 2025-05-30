@@ -200,3 +200,5 @@ _systemd_nspawn() {
 }
 
 complete -F _systemd_nspawn systemd-nspawn
+
+# vi:ft=sh
